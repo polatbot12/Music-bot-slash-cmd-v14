@@ -1,2 +1,2 @@
 CODE SHARE 
-https://discord.gg/6W7rZQf
+https://discord.gg/CMj93ASrJx
