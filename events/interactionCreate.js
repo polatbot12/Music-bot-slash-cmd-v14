@@ -28,7 +28,7 @@ const embed = new EmbedBuilder()
 .setThumbnail(client.user.displayAvatarURL())
 .setDescription("You must have the <@&"+djRole+">(DJ) role set on this server to use this command. Users without this role cannot use the "+client.config.opt.DJ.commands.map(astra => '`'+astra+'`').join(", "))
 .setTimestamp()
-.setFooter({text: `Code Share - by Umut Bayraktar ❤️` })
+.setFooter({text: `Code Share - by Polat Bot ` })
 return interaction.reply({ embeds: [embed], ephemeral: true}).catch(e => { })
 }}}}
 }
@@ -74,7 +74,7 @@ const embed = new EmbedBuilder()
 { name: `Requested By`, value: `${queue.current.requestedBy}` }
 ])
 .setTimestamp()
-.setFooter({text: `Code Share - by Umut Bayraktar ❤️` })
+.setFooter({text: `Code Share - by Polat Bot` })
 interaction.member.send({ embeds: [embed] }).then(() => {
 return interaction.reply({ content: `I sent you the name of the music in a private message ✅`, embeds: [], components: [], ephemeral: true}).catch(e => { })
 }).catch(error => {
@@ -99,7 +99,7 @@ const embed = new EmbedBuilder()
 .setThumbnail(client.user.displayAvatarURL())
 .setTimestamp()
 .setDescription(`${progress} (**${timestamp.progress}**%)`)
-.setFooter({text: `Code Share - by Umut Bayraktar ❤️` })
+.setFooter({text: `Code Share - by Polat Bot` })
 interaction.message.edit({ embeds: [embed] }).catch(e => { })
 interaction.reply({ content: `**✅ Success:** Time data updated. `, embeds: [], components: [], ephemeral: true}).catch(e => { })
 }
