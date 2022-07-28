@@ -1,4 +1,6 @@
-Discord MusicBot slash cmd v14 
-discord 
+# Discord MusicBot slash cmd v14 
 
-[![Discord](https://discord.gg/barzani)]
+
+[![Discord](https://discord.gg/devilstaff)]
+
+# By : POLAT BOT
